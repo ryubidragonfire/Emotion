@@ -1,0 +1,367 @@
+=====================================================================================
+Executing: TrainTest{test=E:\Mood\English_Mood\dataForTLC\Reduced_Classes\balanced_data\testdata_balanced_data.txt scorer=MultiClassClassifierScorer eval=MultiClassClassifierEvaluator{topk=11 nccf=11} valid=E:\Mood\English_Mood\dataForTLC\Original_Classes\60-20-20\validdata_1gram.txt data=E:\Mood\English_Mood\dataForTLC\Reduced_Classes\balanced_data\traindata_balanced_data.txt  loader=TextLoader{col=Label:R4:0 col=Text:TX:1} xf=MissingValueFilter{col=Label col=Text} xf=WordBagTransform{col=Text:Text ngram=2} xf=CopyColumns{col=Features:Text} tr=MultiClassLogisticRegression {} out={E:\Mood\English_Mood\Experiments\Multi_Class_Logistic_Regression_2gram\Reduced_Classes\balanced_data\0.model.zip} sf={E:\Mood\English_Mood\Experiments\Multi_Class_Logistic_Regression_2gram\Reduced_Classes\balanced_data\0.summary.txt} dout={E:\Mood\English_Mood\Experiments\Multi_Class_Logistic_Regression_2gram\Reduced_Classes\balanced_data\0.inst.txt}}
+=====================================================================================
+maml.exe TrainTest test=E:\Mood\English_Mood\dataForTLC\Reduced_Classes\balanced_data\testdata_balanced_data.txt tr=MultiClassLogisticRegression scorer=MultiClassClassifierScorer eval=MultiClassClassifierEvaluator{topk=11 nccf=11} sf=E:\Mood\English_Mood\Experiments\Multi_Class_Logistic_Regression_2gram\Reduced_Classes\balanced_data\0.summary.txt valid=E:\Mood\English_Mood\dataForTLC\Original_Classes\60-20-20\validdata_1gram.txt dout=E:\Mood\English_Mood\Experiments\Multi_Class_Logistic_Regression_2gram\Reduced_Classes\balanced_data\0.inst.txt loader=TextLoader{col=Label:R4:0 col=Text:TX:1} data=E:\Mood\English_Mood\dataForTLC\Reduced_Classes\balanced_data\traindata_balanced_data.txt out=E:\Mood\English_Mood\Experiments\Multi_Class_Logistic_Regression_2gram\Reduced_Classes\balanced_data\0.model.zip xf=MissingValueFilter{col=Label col=Text} xf=WordBagTransform{col=Text:Text ngram=2} xf=CopyColumns{col=Features:Text}
+Processed 229330 rows with 0 bad values and 6 format errors
+Processed 229330 rows with 0 bad values and 6 format errors
+Automatically adding a MinMax normalization transform, use 'norm=Warn' or 'norm=No' to turn this behavior off.
+Processed 229330 rows with 0 bad values and 6 format errors
+Processed 229330 rows with 0 bad values and 6 format errors
+Beginning optimization
+   num vars: 4955780
+   term criterion: Mean Improvement
+
+Iter n: new_value (term_crit)
+-------------------------------------------------
+Iter 0: 1.6094e0 (**********) 
+Iter 1: 1.5837e0 (2.570e-2) .
+Iter 2: 1.4621e0 (1.024e-1) 
+Iter 3: 1.3435e0 (1.147e-1) 
+Iter 4: 1.3368e0 (3.342e-2) 
+Iter 5: 1.3286e0 (1.445e-2) 
+Iter 6: 1.3252e0 (6.171e-3) 
+Iter 7: 1.3179e0 (7.027e-3) 
+Iter 8: 1.2993e0 (1.570e-2) 
+Iter 9: 1.2692e0 (2.650e-2) 
+Iter 10: 1.2349e0 (3.236e-2) 
+Iter 11: 1.2126e0 (2.481e-2) 
+Iter 12: 1.1981e0 (1.705e-2) 
+Iter 13: 1.1961e0 (5.798e-3) 
+Iter 14: 1.1899e0 (6.068e-3) 
+Iter 15: 1.1768e0 (1.134e-2) 
+Iter 16: 1.1528e0 (2.085e-2) 
+Iter 17: 1.1255e0 (2.570e-2) 
+Iter 18: 1.1174e0 (1.250e-2) 
+Iter 19: 1.1129e0 (6.506e-3) 
+Iter 20: 1.1105e0 (3.411e-3) 
+Iter 21: 1.1062e0 (4.060e-3) 
+Iter 22: 1.0988e0 (6.594e-3) 
+Iter 23: 1.0876e0 (1.003e-2) ..
+Iter 24: 1.0860e0 (3.721e-3) 
+Iter 25: 1.0760e0 (8.450e-3) 
+Iter 26: 1.0718e0 (5.245e-3) 
+Iter 27: 1.0700e0 (2.653e-3) 
+Iter 28: 1.0671e0 (2.825e-3) 
+Iter 29: 1.0610e0 (5.305e-3) 
+Iter 30: 1.0517e0 (8.290e-3) ..
+Iter 31: 1.0505e0 (2.976e-3) 
+Iter 32: 1.0425e0 (6.733e-3) 
+Iter 33: 1.0398e0 (3.684e-3) 
+Iter 34: 1.0385e0 (1.935e-3) 
+Iter 35: 1.0379e0 (8.935e-4) 
+Iter 36: 1.0353e0 (2.214e-3) 
+Iter 37: 1.0309e0 (3.844e-3) 
+Iter 38: 1.0244e0 (5.837e-3) .
+Iter 39: 1.0224e0 (2.957e-3) 
+Iter 40: 1.0181e0 (3.964e-3) 
+Iter 41: 1.0141e0 (3.956e-3) 
+Iter 42: 1.0065e0 (6.691e-3) 
+Iter 43: 1.0032e0 (4.170e-3) .
+Iter 44: 1.0021e0 (1.913e-3) 
+Iter 45: 9.9925e-1 (2.585e-3) 
+Iter 46: 9.9818e-1 (1.446e-3) 
+Iter 47: 9.9682e-1 (1.380e-3) 
+Iter 48: 9.9380e-1 (2.610e-3) 
+Iter 49: 9.9117e-1 (2.622e-3) 
+Iter 50: 9.8972e-1 (1.746e-3) 
+Iter 51: 9.8873e-1 (1.181e-3) 
+Iter 52: 9.8817e-1 (7.157e-4) 
+Iter 53: 9.8696e-1 (1.084e-3) 
+Iter 54: 9.8475e-1 (1.928e-3) .
+Iter 55: 9.8402e-1 (1.033e-3) 
+Iter 56: 9.8187e-1 (1.867e-3) 
+Iter 57: 9.8028e-1 (1.660e-3) 
+Iter 58: 9.7916e-1 (1.252e-3) 
+Iter 59: 9.7779e-1 (1.343e-3) 
+Iter 60: 9.7598e-1 (1.691e-3) 
+Iter 61: 9.7483e-1 (1.289e-3) 
+Iter 62: 9.7434e-1 (6.921e-4) 
+Iter 63: 9.7395e-1 (4.608e-4) 
+Iter 64: 9.7308e-1 (7.690e-4) 
+Iter 65: 9.7085e-1 (1.864e-3) 
+Iter 66: 9.6956e-1 (1.431e-3) 
+Iter 67: 9.6829e-1 (1.310e-3) 
+Iter 68: 9.6785e-1 (6.620e-4) 
+Iter 69: 9.6722e-1 (6.370e-4) 
+Iter 70: 9.6656e-1 (6.572e-4) 
+Iter 71: 9.6637e-1 (3.023e-4) 
+Iter 72: 9.6489e-1 (1.188e-3) 
+Iter 73: 9.6440e-1 (6.642e-4) 
+Iter 74: 9.6401e-1 (4.564e-4) 
+Iter 75: 9.6360e-1 (4.249e-4) 
+Iter 76: 9.6331e-1 (3.224e-4) 
+Iter 77: 9.6228e-1 (8.525e-4) 
+Iter 78: 9.6203e-1 (4.024e-4) 
+Iter 79: 9.6169e-1 (3.539e-4) 
+Iter 80: 9.6137e-1 (3.318e-4) 
+Iter 81: 9.6101e-1 (3.475e-4) 
+Iter 82: 9.6028e-1 (6.339e-4) .
+Iter 83: 9.6011e-1 (2.902e-4) 
+Iter 84: 9.5986e-1 (2.579e-4) 
+Iter 85: 9.5909e-1 (6.464e-4) 
+Iter 86: 9.5870e-1 (4.511e-4) 
+Iter 87: 9.5857e-1 (2.115e-4) 
+Iter 88: 9.5840e-1 (1.814e-4) 
+Iter 89: 9.5819e-1 (2.017e-4) 
+Iter 90: 9.5808e-1 (1.348e-4) 
+Iter 91: 9.5781e-1 (2.348e-4) 
+Iter 92: 9.5754e-1 (2.618e-4) 
+Iter 93: 9.5678e-1 (6.358e-4) 
+Iter 94: 9.5642e-1 (4.292e-4) 
+Iter 95: 9.5600e-1 (4.174e-4) 
+Iter 96: 9.5585e-1 (2.181e-4) 
+Iter 97: 9.5563e-1 (2.186e-4) 
+Iter 98: 9.5545e-1 (1.905e-4) ..
+Iter 99: 9.5542e-1 (7.122e-5) 
+Iter 100: 9.5531e-1 (1.025e-4) .
+Iter 101: 9.5523e-1 (8.620e-5) 
+Iter 102: 9.5503e-1 (1.686e-4) 
+Iter 103: 9.5451e-1 (4.308e-4) 
+Iter 104: 9.5411e-1 (4.117e-4) .
+Iter 105: 9.5403e-1 (1.566e-4) 
+Iter 106: 9.5383e-1 (1.944e-4) 
+Iter 107: 9.5369e-1 (1.551e-4) 
+Iter 108: 9.5356e-1 (1.312e-4) 
+Iter 109: 9.5336e-1 (1.857e-4) 
+Iter 110: 9.5307e-1 (2.615e-4) .
+Iter 111: 9.5300e-1 (1.215e-4) 
+Iter 112: 9.5285e-1 (1.417e-4) 
+Iter 113: 9.5274e-1 (1.175e-4) 
+Iter 114: 9.5265e-1 (9.857e-5) 
+Iter 115: 9.5249e-1 (1.452e-4) 
+Iter 116: 9.5227e-1 (2.014e-4) ..
+Iter 117: 9.5221e-1 (9.424e-5) 
+Iter 118: 9.5199e-1 (1.877e-4) 
+Iter 119: 9.5181e-1 (1.797e-4) .
+Iter 120: 9.5174e-1 (1.012e-4) 
+Iter 121: 9.5161e-1 (1.221e-4) 
+Iter 122: 9.5150e-1 (1.121e-4) 
+Iter 123: 9.5143e-1 (7.607e-5) 
+Iter 124: 9.5137e-1 (6.712e-5) 
+Iter 125: 9.5131e-1 (6.171e-5) 
+Iter 126: 9.5123e-1 (7.296e-5) 
+Iter 127: 9.5122e-1 (2.687e-5) 
+Iter 128: 9.5112e-1 (8.593e-5) 
+Iter 129: 9.5107e-1 (5.698e-5) 
+Iter 130: 9.5100e-1 (6.869e-5) 
+Iter 131: 9.5091e-1 (8.159e-5) 
+Iter 132: 9.5074e-1 (1.512e-4) 
+Iter 133: 9.5063e-1 (1.192e-4) 
+Iter 134: 9.5060e-1 (5.246e-5) 
+Iter 135: 9.5053e-1 (6.676e-5) 
+Iter 136: 9.5049e-1 (4.365e-5) 
+Iter 137: 9.5042e-1 (6.661e-5) 
+Iter 138: 9.5032e-1 (8.675e-5) .
+Iter 139: 9.5029e-1 (4.310e-5) 
+Iter 140: 9.5022e-1 (6.598e-5) 
+Iter 141: 9.5017e-1 (5.409e-5) 
+Iter 142: 9.5011e-1 (5.595e-5) 
+Iter 143: 9.5007e-1 (4.935e-5) 
+Iter 144: 9.5003e-1 (3.974e-5) 
+Iter 145: 9.4996e-1 (5.973e-5) 
+Iter 146: 9.4993e-1 (4.301e-5) 
+Iter 147: 9.4990e-1 (2.850e-5) 
+Iter 148: 9.4986e-1 (3.663e-5) 
+Iter 149: 9.4982e-1 (4.429e-5) 
+Iter 150: 9.4978e-1 (3.571e-5) 
+Iter 151: 9.4973e-1 (5.184e-5) 
+Iter 152: 9.4968e-1 (4.989e-5) 
+Iter 153: 9.4962e-1 (5.199e-5) 
+Iter 154: 9.4957e-1 (5.435e-5) 
+Iter 155: 9.4953e-1 (4.282e-5) 
+Iter 156: 9.4950e-1 (3.274e-5) 
+Iter 157: 9.4949e-1 (1.650e-5) 
+Iter 158: 9.4945e-1 (3.180e-5) 
+Iter 159: 9.4942e-1 (3.540e-5) 
+Iter 160: 9.4935e-1 (5.601e-5) 
+Iter 161: 9.4928e-1 (6.631e-5) 
+Iter 162: 9.4924e-1 (4.988e-5) 
+Iter 163: 9.4921e-1 (3.728e-5) 
+Iter 164: 9.4919e-1 (2.273e-5) 
+Iter 165: 9.4916e-1 (3.009e-5) 
+Iter 166: 9.4913e-1 (2.362e-5) 
+Iter 167: 9.4912e-1 (1.645e-5) 
+Iter 168: 9.4909e-1 (2.472e-5) 
+Iter 169: 9.4907e-1 (2.330e-5) 
+Iter 170: 9.4904e-1 (2.554e-5) 
+Iter 171: 9.4902e-1 (2.342e-5) 
+Iter 172: 9.4897e-1 (4.282e-5) 
+Iter 173: 9.4892e-1 (4.718e-5) 
+Iter 174: 9.4889e-1 (3.866e-5) 
+Iter 175: 9.4887e-1 (2.334e-5) 
+Iter 176: 9.4886e-1 (1.308e-5) 
+Iter 177: 9.4885e-1 (1.065e-5) 
+Iter 178: 9.4881e-1 (3.467e-5) 
+Iter 179: 9.4877e-1 (3.795e-5) 
+Iter 180: 9.4874e-1 (2.719e-5) 
+Iter 181: 9.4871e-1 (2.969e-5) 
+Iter 182: 9.4870e-1 (1.806e-5) 
+Iter 183: 9.4868e-1 (1.739e-5) 
+Iter 184: 9.4865e-1 (2.500e-5) 
+Iter 185: 9.4864e-1 (1.756e-5) 
+Iter 186: 9.4863e-1 (1.199e-5) 
+Iter 187: 9.4861e-1 (1.981e-5) 
+Iter 188: 9.4858e-1 (2.239e-5) 
+Iter 189: 9.4855e-1 (2.844e-5) 
+Iter 190: 9.4852e-1 (3.018e-5) 
+Iter 191: 9.4851e-1 (1.747e-5) 
+Iter 192: 9.4850e-1 (8.212e-6) 
+Iter 193: 9.4850e-1 (4.601e-6) 
+Iter 194: 9.4848e-1 (1.371e-5) 
+Iter 195: 9.4846e-1 (1.961e-5) 
+Iter 196: 9.4844e-1 (1.912e-5) 
+Iter 197: 9.4842e-1 (2.069e-5) 
+Iter 198: 9.4841e-1 (1.420e-5) 
+Iter 199: 9.4840e-1 (1.254e-5) 
+Iter 200: 9.4837e-1 (2.482e-5) 
+Iter 201: 9.4835e-1 (2.292e-5) .
+Iter 202: 9.4834e-1 (1.168e-5) 
+Iter 203: 9.4833e-1 (1.012e-5) 
+Iter 204: 9.4831e-1 (1.424e-5) 
+Iter 205: 9.4830e-1 (1.264e-5) 
+Iter 206: 9.4829e-1 (1.545e-5) 
+Iter 207: 9.4828e-1 (9.630e-6) 
+Iter 208: 9.4827e-1 (7.817e-6) 
+Iter 209: 9.4826e-1 (9.107e-6) 
+Iter 210: 9.4825e-1 (1.372e-5) 
+Iter 211: 9.4824e-1 (5.397e-6) 
+Iter 212: 9.4823e-1 (1.042e-5) 
+Iter 213: 9.4823e-1 (5.467e-6) 
+Iter 214: 9.4822e-1 (4.585e-6) 
+Iter 215: 9.4822e-1 (6.377e-6) 
+Iter 216: 9.4820e-1 (1.022e-5) .
+Iter 217: 9.4820e-1 (6.713e-6) 
+Iter 218: 9.4819e-1 (9.725e-6) 
+Iter 219: 9.4818e-1 (7.527e-6) 
+Iter 220: 9.4818e-1 (2.687e-6) 
+Iter 221: 9.4817e-1 (8.495e-6) 
+Iter 222: 9.4816e-1 (1.004e-5) 
+Iter 223: 9.4815e-1 (9.259e-6) .
+Iter 224: 9.4815e-1 (4.952e-6) 
+Iter 225: 9.4814e-1 (3.116e-6) 
+Iter 226: 9.4814e-1 (6.948e-6) 
+Iter 227: 9.4813e-1 (3.346e-6) 
+Iter 228: 9.4813e-1 (6.693e-6) 
+Iter 229: 9.4812e-1 (4.937e-6) 
+Iter 230: 9.4812e-1 (4.945e-6) 
+Iter 231: 9.4811e-1 (3.963e-6) 
+Iter 232: 9.4811e-1 (6.668e-6) 
+Iter 233: 9.4810e-1 (9.535e-6) 
+Iter 234: 9.4809e-1 (9.313e-6) 
+Iter 235: 9.4808e-1 (6.217e-6) 
+Iter 236: 9.4808e-1 (2.359e-6) 
+Iter 237: 9.4807e-1 (5.060e-6) 
+Iter 238: 9.4807e-1 (6.764e-6) 
+Iter 239: 9.4806e-1 (4.194e-6) .
+Iter 240: 9.4806e-1 (2.256e-6) 
+Iter 241: 9.4806e-1 (3.067e-6) 
+Iter 242: 9.4806e-1 (2.689e-6) 
+Iter 243: 9.4805e-1 (3.354e-6) 
+Iter 244: 9.4805e-1 (1.420e-6) 
+Iter 245: 9.4805e-1 (2.769e-6) 
+Iter 246: 9.4805e-1 (1.676e-6) 
+Iter 247: 9.4804e-1 (1.894e-6) 
+Iter 248: 9.4804e-1 (3.066e-6) 
+Iter 249: 9.4804e-1 (4.343e-6) 
+Iter 250: 9.4803e-1 (3.410e-6) 
+Iter 251: 9.4803e-1 (3.624e-6) 
+Iter 252: 9.4803e-1 (1.800e-6) 
+Iter 253: 9.4803e-1 (1.523e-6) 
+Iter 254: 9.4802e-1 (1.856e-6) 
+Iter 255: 9.4802e-1 (2.207e-6) 
+Iter 256: 9.4802e-1 (1.222e-6) 
+Iter 257: 9.4802e-1 (1.736e-6) 
+Iter 258: 9.4801e-1 (4.144e-6) 
+Iter 259: 9.4801e-1 (3.182e-6) 
+Iter 260: 9.4801e-1 (3.478e-6) 
+Iter 261: 9.4801e-1 (2.300e-6) 
+Iter 262: 9.4801e-1 (1.469e-6) 
+Iter 263: 9.4800e-1 (9.931e-7) 
+Iter 264: 9.4800e-1 (1.232e-6) 
+Iter 265: 9.4800e-1 (2.364e-6) 
+Iter 266: 9.4800e-1 (1.664e-6) 
+Iter 267: 9.4800e-1 (8.183e-7) .
+Iter 268: 9.4800e-1 (6.516e-7) 
+Iter 269: 9.4800e-1 (1.996e-6) 
+Iter 270: 9.4799e-1 (1.438e-6) 
+Iter 271: 9.4799e-1 (1.656e-6) 
+Iter 272: 9.4799e-1 (7.716e-7) 
+Iter 273: 9.4799e-1 (9.082e-7) 
+Iter 274: 9.4799e-1 (1.300e-6) 
+Iter 275: 9.4799e-1 (4.144e-7) 
+Iter 276: 9.4799e-1 (1.355e-6) 
+Iter 277: 9.4799e-1 (1.278e-6) 
+Iter 278: 9.4799e-1 (9.005e-7) .
+Iter 279: 9.4799e-1 (3.145e-7) .
+Iter 280: 9.4799e-1 (1.233e-7) 
+Iter 281: 9.4798e-1 (1.461e-6) 
+Iter 282: 9.4798e-1 (7.230e-7) ..
+Iter 283: 9.4798e-1 (2.701e-7) 
+Iter 284: 9.4798e-1 (1.096e-6) 
+Iter 285: 9.4798e-1 (1.302e-6) 
+Iter 286: 9.4798e-1 (1.264e-6) 
+Iter 287: 9.4798e-1 (7.631e-7) 
+Iter 288: 9.4798e-1 (1.442e-6) 
+Iter 289: 9.4798e-1 (8.971e-7) 
+Iter 290: 9.4797e-1 (1.878e-6) 
+Iter 291: 9.4797e-1 (9.613e-7) 
+Iter 292: 9.4797e-1 (5.980e-7) 
+Iter 293: 9.4797e-1 (1.495e-7) .
+Iter 294: 9.4797e-1 (4.844e-7) 
+Iter 295: 9.4797e-1 (4.340e-7) 
+Iter 296: 9.4797e-1 (4.214e-7) 
+Iter 297: 9.4797e-1 (7.312e-7) 
+Iter 298: 9.4797e-1 (5.404e-7) 
+Iter 299: 9.4797e-1 (4.033e-7) 
+Iter 300: 9.4797e-1 (2.796e-7) 
+Iter 301: 9.4797e-1 (9.193e-7) 
+Iter 302: 9.4797e-1 (1.973e-6) .....
+Iter 303: 9.4797e-1 (4.933e-7) ....
+Iter 304: 9.4797e-1 (1.233e-7) .
+Iter 305: 9.4797e-1 (2.096e-7) 
+Iter 306: 9.4797e-1 (5.441e-7) .
+Iter 307: 9.4797e-1 (1.807e-7) 
+Iter 308: 9.4797e-1 (4.519e-8)
+L1 regularization selected 120750 of 4955780 weights.
+Processed 76444 rows with 0 bad values and 3 format errors
+
+ Confusion table
+          ||========================================
+PREDICTED ||     0 |     1 |     2 |     3 |     4 | Recall
+TRUTH     ||================================================
+       0  || 10259 |  2129 |  1367 |   885 |   676 | 0.670
+       1  ||  2228 |  8879 |  1713 |  1511 |   981 | 0.580
+       2  ||  1518 |  1778 |  8483 |  1000 |  2484 | 0.556
+       3  ||   722 |  1185 |   907 |  9857 |  2678 | 0.642
+       4  ||   299 |   621 |  1409 |  2503 | 10372 | 0.682
+      ==============================================
+Precision || 0.683 | 0.608 | 0.611 | 0.626 | 0.603 |
+
+ACCURACY(micro-avg):     0.625948
+ACCURACY(macro-avg):     0.625973
+LOG-LOSS:                0.989575
+LOG-LOSS REDUCTION:      38.514065
+
+OVERALL RESULTS
+---------------------------------------
+ACCURACY(micro-avg): 0.6259 (0.0000)
+ACCURACY(macro-avg): 0.6260 (0.0000)
+LOG-LOSS:            0.9896 (0.0000)
+LOG-LOSS REDUCTION: 38.5141 (0.0000)
+
+---------------------------------------
+Wrote 1 rows of length 4
+11/23/2015 8:59:48 AM	 Time elapsed(s): 269
+
+ 
+=====================================================================================
+Executing: SaveModel{code={E:\Mood\English_Mood\Experiments\Multi_Class_Logistic_Regression_2gram\Reduced_Classes\balanced_data\0.model.cs} ini={E:\Mood\English_Mood\Experiments\Multi_Class_Logistic_Regression_2gram\Reduced_Classes\balanced_data\0.model.ini} sum={E:\Mood\English_Mood\Experiments\Multi_Class_Logistic_Regression_2gram\Reduced_Classes\balanced_data\0.model.summary.txt} text={E:\Mood\English_Mood\Experiments\Multi_Class_Logistic_Regression_2gram\Reduced_Classes\balanced_data\0.model.txt} in={E:\Mood\English_Mood\Experiments\Multi_Class_Logistic_Regression_2gram\Reduced_Classes\balanced_data\0.model.zip}}
+=====================================================================================
+Saving predictor summary
+Saving predictor as text
+Saving predictor as ini
+Saving predictor as code
+ 
+=====================================================================================
+Executed 2 commands in 00:04:31.6222636
+=====================================================================================
