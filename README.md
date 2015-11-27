@@ -12,4 +12,4 @@ This is a set of experiments carried out to understand the following effects on 
 	- number of neurons
 	- number of hidden layers
 
-write up on those case studies can be found at: todo
+Discussions on the above cases can be found at: todo
